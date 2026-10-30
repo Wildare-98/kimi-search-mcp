@@ -1,0 +1,34 @@
+{
+  "name": "kimi-search-mcp",
+  "version": "1.0.0",
+  "description": "Local stdio MCP server wrapping Kimi Search Basic, Search Pro, and Fetch APIs",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "kimi-search-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kimi",
+    "moonshot",
+    "web-search",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "zod": "^4.6.7"
+  }
+}
